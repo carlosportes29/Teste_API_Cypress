@@ -7,7 +7,7 @@
 3 -npm install --save-dev cypress-cucumber-preprocessor (https://www.npmjs.com/package/cypress-cucumber-preprocessor)
 
 
-Adicionar dados no arquivos a seguir:
+#########Adicionar dados no arquivos a seguir###########
 
 **support/index.js**
 
@@ -33,4 +33,4 @@ module.exports = (on, config) => {
       "fileSuffix": ".json"
     }
 	
-_e depois rodar o npm update e logo em seguida.. executar o cypress chamando a função arquivo.feature com a finalidade de dar sucesso ao step definition
+_E depois rodar o npm update e logo em seguida.. executar o cypress (npx cypress open ou npx cypress chamando a função arquivo.feature com a finalidade de dar o OK na regra de step definition_
