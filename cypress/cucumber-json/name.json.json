@@ -36,7 +36,7 @@
             "name": "que autentico token",
             "result": {
               "status": "passed",
-              "duration": 71000000
+              "duration": 72000000
             }
           },
           {
@@ -46,7 +46,7 @@
             "name": "faço a requisiçao para teste",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 6000000
             }
           },
           {
