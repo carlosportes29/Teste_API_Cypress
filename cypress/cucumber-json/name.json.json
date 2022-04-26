@@ -1,0 +1,66 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Teste_API",
+    "line": 4,
+    "id": "teste_api",
+    "tags": [
+      {
+        "name": "@teste_feature",
+        "line": 3
+      }
+    ],
+    "uri": "name.feature",
+    "elements": [
+      {
+        "id": "teste_api;teste-cucumber",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Teste Cucumber",
+        "tags": [
+          {
+            "name": "@teste_feature",
+            "line": 3
+          },
+          {
+            "name": "@teste",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que autentico token",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "faço a requisiçao para teste",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "vai retornar o code e o body_response com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
